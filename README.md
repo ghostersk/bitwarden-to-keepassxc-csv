@@ -7,3 +7,7 @@ This is cimple python script, what will take unecrypted VaultWarden vault in CSV
 - otherwise you need to run it as python <b>convertor.py <exported vaultwarden vault.csv> <keepasxc import.csv></b>
 - if second argument not provided, it will create file in current directory: "keepassxc-import.csv"
 - <b>This code also imports TOTP, by extracting the secret value.</b>
+
+When you are importing this .csv file to KeepassXC, make sure you select "First line has field names"
+- otherwise you may first need to remove the column names from the .csv file
+![image](https://github.com/user-attachments/assets/bf23034f-675f-439c-aa87-e29916156f99)
